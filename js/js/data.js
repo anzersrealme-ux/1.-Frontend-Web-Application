@@ -1,3 +1,4 @@
+console.log("DATA FILE LOADED");
 const products = [
   {
     id: 1,
