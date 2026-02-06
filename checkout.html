@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - My Shop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <h1>🛍️ Silk Symphony</h1>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="cart.html">Back to Cart</a>
+    </div>
+  </header>
+
+  <div class="container checkout-container">
+
+    <div id="order-summary" class="summary-box"></div>
+
+    <div class="checkout-card">
+      <h2>Shipping Details</h2>
+
+      <form id="checkout-form">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="text" placeholder="Street Address" required>
+        <input type="text" placeholder="City" required>
+        <input type="text" placeholder="Phone Number" required>
+        <button type="submit">Place Order</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/checkout.js"></script>
+</body>
+</html>
